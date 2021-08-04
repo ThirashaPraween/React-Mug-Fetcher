@@ -1,6 +1,6 @@
 {
   "name": "@thira/react-mugfetcher",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React API fetch data without asynchronous or hooks",
   "main": "index.js",
   "scripts": {
@@ -10,13 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/ThirashaPraween/React-Mug-Fetcher.git"
   },
-  "author": "Thirasha Praween",
+  "author": "thirashapraween",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ThirashaPraween/React-Mug-Fetcher/issues"
   },
   "homepage": "https://github.com/ThirashaPraween/React-Mug-Fetcher#readme",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^4.0.3"
