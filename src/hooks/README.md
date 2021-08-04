@@ -1,10 +1,10 @@
 ![N|Solid](https://i.imgur.com/ouPNaeH.png)
 
 
-![Build man](https://img.shields.io/badge/Library%20version-v1.0-green?style=for-the-badge&logo=appveyor) ![Build man](https://img.shields.io/github/repo-size/ThirashaPraween/React-Mug-Fetcher?style=for-the-badge&logo=appveyor) ![Build man](https://img.shields.io/tokei/lines/github/ThirashaPraween/React-Mug-Fetcher?style=for-the-badge) ![Build man](https://img.shields.io/github/last-commit/ThirashaPraween/React-Mug-Fetcher?style=for-the-badge) ![Build man](https://img.shields.io/badge/Developer-ThirashaPW-blueviolet?style=for-the-badge&logo=appveyor)
+![Build man](https://img.shields.io/badge/Library%20version-v1.0-green?style=for-the-badge&logo=appveyor) ![Build man](https://img.shields.io/github/last-commit/ThirashaPraween/React-Mug-Fetcher?style=for-the-badge) ![Build man](https://img.shields.io/badge/Developer-ThirashaPW-blueviolet?style=for-the-badge&logo=appveyor)
 
 
-# fornyKit
+# React Mug Fetcher
 React API fetch data without asynchronous or hooks
 
 ## Installation
@@ -28,12 +28,12 @@ First import the library
 import { useFetcher } from "@thira/react-mugfetcher";
 ```
 
-##### Simple fetch request
+##### Implement a simple fetch request
 ```
 const { data, loading, error, length } = useFetcher("https://jsonplaceholder.typicode.com/comments?postId=1"); 
 ```
 
-##### Full simple example
+##### Simple example code
 ```
 import { useFetcher } from "./hooks/index";
 
