@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { useFetcher } from "./hooks/index";
 function App() {
+  const { data, loading, error, length } = useFetcher("https://jsonplaceholder.typicode.com/comments?postId=1"); 
+
+  console.log(data, loading, error, length);
+
+  if(loading){
+    return <p> Loading... </p>
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ul>
+        {data.map(item => (
+          <li key={item.id}>{item.name}</li>
+        ))}
+      </ul>
+      <p>Total items = {length}</p>
     </div>
   );
 }
