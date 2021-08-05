@@ -35,7 +35,7 @@ const { data, loading, error, length } = useFetcher("https://jsonplaceholder.typ
 
 ##### Simple example code
 ```
-import { useFetcher } from "./hooks/index";
+import { useFetcher } from "@thira/react-mugfetcher";
 
 function App() {
   const { data, loading, error, length } = useFetcher("https://jsonplaceholder.typicode.com/comments?postId=1"); 
