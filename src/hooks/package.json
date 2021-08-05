@@ -1,6 +1,6 @@
 {
   "name": "@thira/react-mugfetcher",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React API fetch data without asynchronous or hooks",
   "main": "index.js",
   "scripts": {
