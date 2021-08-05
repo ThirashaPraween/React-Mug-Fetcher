@@ -1,7 +1,7 @@
 ![N|Solid](https://i.imgur.com/ouPNaeH.png)
 
 
-![Build man](https://img.shields.io/badge/Library%20version-v1.0-green?style=for-the-badge&logo=appveyor) ![Build man](https://img.shields.io/github/last-commit/ThirashaPraween/React-Mug-Fetcher?style=for-the-badge) ![Build man](https://img.shields.io/badge/Developer-ThirashaPW-blueviolet?style=for-the-badge&logo=appveyor)
+![Build man](https://img.shields.io/badge/Library%20version-v1.6-green?style=for-the-badge&logo=appveyor) ![Build man](https://img.shields.io/github/last-commit/ThirashaPraween/React-Mug-Fetcher?style=for-the-badge) ![Build man](https://img.shields.io/badge/Developer-ThirashaPW-blueviolet?style=for-the-badge&logo=appveyor)
 
 
 # React Mug Fetcher
